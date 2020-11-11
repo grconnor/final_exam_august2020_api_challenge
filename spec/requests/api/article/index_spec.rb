@@ -9,8 +9,8 @@ RSpec.describe 'GET /api/articles', type: :request do
       expect(response).to have_http_status 200
     end
 
-    it 'returns the article comment' do
-      expect(response_json['comment']).to eq "Some cool comment."
+    it 'returns three articles' do
+      expect(response_json['articles'].count).to eq 3
     end
   end
 end
