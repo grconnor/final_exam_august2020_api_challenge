@@ -1,10 +1,10 @@
 # Tasks:
-- [ ] Write request spec
-- [ ] Add comment model
-- [ ] Comment needs to contain a body
-- [ ] Add association between comment and article
-- [ ] Only authenticated user can comment, add user model with devise token auth
-- [ ] Add association between comment and user
+- [X] Write request spec
+- [X] Add comment model
+- [X] Comment needs to contain a body
+- [X] Add association between comment and article
+- [X] Only authenticated user can comment, add user model with devise token auth
+- [X] Add association between comment and user
 
 ## Comments Challenge
 You are challenged to implement a feature for the Crafty News API.
